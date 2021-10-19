@@ -1,0 +1,142 @@
+/* CSS Formatting Document */
+
+body {
+	color: #000000;
+	background-color: #ccffff;
+	font: 16px Georgia, "Times New Roman", Times, serif;
+	margin: 5pt;
+}
+a:visited{
+	color: #555407;
+}
+a:link{
+	color: #1a4808;
+}
+a:hover{
+	color: #CC3300;
+}
+dl dt{
+	color: #CC3300;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 5pt;
+}
+dl dd{
+	margin-right: 50px;
+	padding-bottom: 25px;
+}
+
+header{
+	padding-left: 200px;
+	font-family: Garamond, serif;
+}
+header h1, h2{
+	font-family: Garmond, serif;
+}
+header h1{
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+header h2{
+	text-align: center;
+	font-size: 1.6em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+nav{
+	font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+	padding: 10px 20px 10px 20px;
+	font-size: 1.2em;
+}
+nav li{
+	padding: 0.2em 1em 0.2em 1em;
+    display: block;
+    border-left: 1px thin #084048;
+}
+section#content{
+	padding: 20px;
+}
+section a {
+	background-color: #ccff99;
+}
+section {
+	background-color: #ccffff;
+}
+
+#content h1 h2 h3 h4 h5 h6{
+	font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+}
+#content h1 {
+	font-size: 1.5em;
+}
+#content h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+#content h3 {
+	font-size: 1.1em;
+}
+#bigger{
+	font-size: 1.1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+#content ol{
+	list-style: upper-roman;
+}
+#content li ol{
+	list-style: lower-alpha;
+}
+footer{
+	background-color: #A1D1D1;
+	padding: 15px;
+/*	clear:left;  */
+	position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+}
+footer p{
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.1em;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+strong {
+	font-weight: bold;
+}
+#clientNav {
+	font: 0.7em/1.1em Arial, Helvetica, cans-serif;
+	border: thin black dotted;
+	background-color: #77c962;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	padding: 5px;  
+	text-align:center
+}
+#clientNav p ul{
+	padding:0px;
+	margin:0px;
+}
+#clientNav li{
+	padding: 0px 5px;
+	border: none;
+}
+.current {
+	background: #66baff;
+	color:aquamarine;
+	border-radius:.3em .3em 0 0;
+}
+nav ul li a{
+	border-style:hidden;
+    border-width: medium;
+    border-color: green;
+}

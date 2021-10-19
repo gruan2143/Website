@@ -1,0 +1,20 @@
+ol,li{
+    margin:0;
+    padding:0;
+    list-style:none;
+   }
+   ol li a {
+   display: block;
+   width: 6em;
+   line-height: 2em;
+   font-size: 1em;
+   text-decoration: none;
+   background-color: #00ffff;
+   color: Black;
+   padding: .2em 0 .2em 1em;
+   }
+   li a:hover{
+     background: #33cccc;
+   }
+   
+ 
